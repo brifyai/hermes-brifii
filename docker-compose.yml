@@ -8,7 +8,6 @@ services:
       - HERMES_GID=1000
       - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
       - NVIDIA_API_KEY=${NVIDIA_API_KEY}
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
     volumes:
       - data:/opt/data
     healthcheck:
