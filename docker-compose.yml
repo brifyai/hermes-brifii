@@ -37,5 +37,3 @@ services:
 
 volumes:
   data:
-    external: true
-    name: brifii_noborrar_hermes-agent-brifii_data
