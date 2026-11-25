@@ -21,6 +21,7 @@ services:
     depends_on:
       - hermes-agent
     environment:
+      - HERMES_WEBUI_AGENT_DIR=/opt/data/hermes-agent
       - HERMES_WEBUI_HOST=0.0.0.0
       - HERMES_WEBUI_PORT=8787
       - HERMES_WEBUI_STATE_DIR=/opt/data/webui
