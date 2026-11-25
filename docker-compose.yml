@@ -30,6 +30,7 @@ services:
       - HERMES_WEBUI_PASSWORD=${HERMES_WEBUI_PASSWORD}
     volumes:
       - data:/opt/data
+      - data:/home/hermeswebui/.hermes
       - workspace:/workspace
     healthcheck:
       test: ["CMD", "curl", "-f", "http://127.0.0.1:8787/health"]
